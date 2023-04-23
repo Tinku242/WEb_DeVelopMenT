@@ -1,0 +1,55 @@
+-------------------------Frontend Part-------------------- 
+----------->StaRt ThIs with BroCode<------------------
+if i succed in this he is the one : "https://www.youtube.com/@BroCodez"
+-->> start from scratch
+    -> html
+    -> css
+    -> javascript
+    
+
+html -> 1hr 
+css -> 1hr
+
+html/css -> 5 hr 
+    -> clone kl erp project
+
+javascript -> 8 hr
+    -> some online store
+    -> some social media Frontend
+
+
+-------------------------backend Part-----------------------
+
+-->> start known languages like 
+        -> python
+        -> nodejs
+        -> java
+
+-> learn frameworks like 
+    -> django
+    -> express
+    -> flask
+    -> pyramid
+    -> Spring MVC
+
+-> learn database like 
+        -> sql i.e., postgre , mysql , oracle
+        -> no sql i.e., mongodb
+
+    -> learn connectivity and CRUD opertaions
+
+-> the clone some of the projects 
+    -> instagram clone
+    -> user own profile web site
+-> bulid some complex projects
+
+
+
+-----------------------Teasting PArt--------------
+
+-> lear some unit Teasting like
+    -> pytest
+    -> jtest
+    -----------> and some popular testing frameworks
+
+--------------------------this a simple roadmap for a Full Stack Developer-----------------

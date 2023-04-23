@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/645d1eebb4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+        integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- {% block 'nav' %} -->
+    <header>
+        <nav class="navbar navbar-expand-lg  border-bottom border-secondary text-white">
+            <div class="container">
+                <a class="navbar-brand" href="{% url 'home' %}">
+                    <img src="https://www.offshoreitstaffing.com/images/erp.png" alt="ERP_logo" width="40"
+                        height="30" />
+                    ERP
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link navlink" aria-current="page" href="{% url 'home' %}">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navlink" href="{% url 'about' %}">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navlink" href="{% url 'contact' %}">Contact</a>
+                        </li>
+                        <!-- {% if user in user %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="logout">logout</a>
+                        </li>   
+                        {% else %} -->
+                        <li class="nav-item">
+                            <a class="nav-link login-logout" href="{% url 'login' %}">Login/Register</a>
+                        </li>
+                        <!-- {% endif %} -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- {% endblock %} -->
+
+    <!-- {% block 'body' %} -->
+
+    <div class="container home-body">
+        <div class="row">
+            <div class="col-md-5 px-5 mx-5">
+                <div class="container erpdet">
+                    <b>
+                        <br><br><br><br><br><br>
+                        <p class="display-4">Enterprise </p>
+                        <p class="display-4">Resource <span
+                                style="color: #99738E;font-family: 'Courier New', Courier, monospace;" 0>&</span></p>
+                        <p class="display-4">Planning</p>
+                    </b>
+                    <br>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Enterprise resource planning (ERP) refers to a type of
+                        software that
+                        organizations use to manage
+                        day-to-day business
+                        activities such as accounting, procurement, project management, risk management and compliance,
+                        and
+                        supply chain
+                        operations.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <br><br><br><br><br>
+                <div class="erp-img px-5 mx-5">
+                    <img src="erp-img.png" alt="Enterprise Resource Planning Erp, HD Png Download@kindpng.com">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- {% endblock %} -->
+
+    <footer>
+        <br><br><br><br>
+        <div class="container-fluid border-top footer">
+            <div class="container p-5 ">
+                <div class="row">
+                    <div class="col-lg-4 p-5">
+                        <div class="container-fluid">
+                            <img src="https://www.offshoreitstaffing.com/images/erp.png" alt="ERP logo" width="110px"
+                                height="120px" />
+                        </div>
+                        <p class="display-6 p-4">ERP</p>
+                    </div>
+                    <div class="col-lg-4 p-5">
+                        <p class="display-6 foot-lh">
+                            <u><b>Links</b></u>
+                        </p>
+                        <div class="nav row p-2">
+                            <a class="nav-link foot-link" href="/">Home</a>
+                            <a class="nav-link foot-link" href="about">About us</a>
+                            <a class="nav-link foot-link" href="contact">Contact</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 p-5">
+                        <p class="display-6 foot-lh">
+                            <u><b>Social</b></u>
+                        </p>
+                        <div class="nav row">
+                            <a class="nav-link foot-soc" href="/">
+                                <i class="fas fa-brands fa-facebook fa-2x"> </i>
+                            </a>
+                            <a class="nav-link foot-soc" href="about">
+                                <i class="fas fa-brands fa-twitter fa-2x"></i>
+                            </a>
+                            <a class="nav-link foot-soc" href="contact">
+                                <i class="fas fa-brands fa-instagram fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

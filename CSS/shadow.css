@@ -1,0 +1,10 @@
+h1 {
+    text-shadow: 0px 0px 5px yellow, 0px -5px 6px red;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+}
+
+h1:hover {
+    box-shadow: 0px 5px 5px black;
+}

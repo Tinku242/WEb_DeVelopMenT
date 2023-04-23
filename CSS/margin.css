@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#box1 {
+    background-color: orange;
+    border: 5px solid;  
+    width: 300px;
+    height: 280px;
+    font-size: 20px;
+    /* margin space around element  */
+    margin: 20px;
+    /* padding space between text and border */
+    padding: 20px;
+}
+
+#box2 {
+    background-color: yellowgreen;
+    border: 5px solid;  
+    width: 300px;
+    height: 280px;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 20px;
+}

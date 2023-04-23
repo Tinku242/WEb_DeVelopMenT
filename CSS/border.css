@@ -1,0 +1,17 @@
+h2 {
+    border-left: double;
+    border-top: dotted;
+    border-bottom: dotted;
+    border-left-width: 10px;
+    border-left-color: red ;
+}
+
+
+p {
+  /* * insert , outset , solid , dotted */
+  border: outset;
+  border-width: 5px;
+  border-radius: 15px;
+  border-color: lightcoral;
+  padding: 20px;
+}

@@ -1,0 +1,30 @@
+<!-- Button Demo -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button | Demo</title>
+</head>
+
+<body>
+    <!-- this button redirect to google.com -->
+    <a href="http://www.google.com">
+        <button style="background-color: black;color :green;border-radius: 5px;">Click to google</button>
+    </a>
+    <br>
+    <!-- here is an another button which add functionality by javascript -->
+    <button onclick="dosomething()"
+        style="border-radius: 10px;color: grey;background-color: #000;padding-left: 10px;padding-right: 10px;">Click</button>
+    <p id="test">Hello world</p>
+    <!-- a little bit of javascript to with next course  -->
+    <script>
+        function dosomething() {
+            document.getElementById("test").innerHTML = "Good bye"
+        }
+    </script>
+</body>
+
+</html>

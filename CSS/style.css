@@ -1,0 +1,19 @@
+body {
+  color: aqua;
+}
+
+.header {
+    color: brown;
+}
+
+#p1 {
+  background-color: gray;
+}
+
+#p2 {
+  background-color: tomato;
+}
+
+#p3 {
+  background-color: yellow;
+}

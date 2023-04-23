@@ -1,0 +1,19 @@
+body {
+    background-image: url("https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+h2 {
+    background: linear-gradient(lightblue,blue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p {
+    background: linear-gradient(lightblue,blue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

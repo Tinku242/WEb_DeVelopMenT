@@ -1,0 +1,20 @@
+->> HTML 
+    -> index
+    -> link
+    -> image
+    -> audio
+    -> video
+    -> text-formating
+    -> lists
+    -> tables
+    -> styles
+    -> span and div
+    -> meta
+    -> iframe
+    -> buttons
+    -> forms
+->> 2 hrs is more enough
+-> basic things need to know 
+    -> This basic view of web page need to learn
+    -> HTML -> Hyper Text Markup Language
+    -> this file store in ".html" extenstion

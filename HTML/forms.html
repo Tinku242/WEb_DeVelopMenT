@@ -1,0 +1,78 @@
+<!-- form tag ang label , input , select , option -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form | Demo</title>
+</head>
+
+<body>
+    <!-- form has attr : action method : get , post  -->
+    <!-- get view data in address bar which is insecure but post use csrf_token and hide data -->
+    <form action="action_page.php" method="get">
+        <div>
+            <label for="fname">firstname :</label>
+            <input type="text" name="fname" placeholder="firstname">
+        </div>
+        <br>
+        <div>
+            <label for="lname">lastname :</label>
+            <input type="text" name="lname" placeholder="lastname">
+        </div>
+        <br>
+        <div>
+            <label for="pwd">password :</label>
+            <input type="password" name="pwd" placeholder="password">
+        </div>
+        <br>
+        <div>
+            <label for="email">email :</label>
+            <input type="email" name="email " placeholder="lastname">
+        </div>
+        <br>
+        <div>
+            <label for="phone">phone :</label>
+            <input type="number" name="phone" placeholder="phone">
+        </div>
+        <br>
+        <div>
+            <label for="DOB">Date of Birth :</label>
+            <input type="date" name="DOB" placeholder="Date of Birth">
+        </div>
+        <br>
+        <div>
+            <label for="gender">gender : </label>
+            <input type="radio" name="title" value="male">
+            <label for="male">male</label>
+            <input type="radio" name="title" value="female">
+            <label for="female">female</label>
+        </div>
+        <br>
+        <div>
+            <label for="post">Post</label>
+            <select name="post" id="post">
+                <option value="student">student</option>
+                <option value="employee">employee</option>
+                <option value="admin">admin</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="rememberme" id="rememberme">
+            <label for="remember me">remember me</label>
+        </div>
+        <br>
+        <div>
+            <input type="reset">
+        </div>
+        <br>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+
+</html>

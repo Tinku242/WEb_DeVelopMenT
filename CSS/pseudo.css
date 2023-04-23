@@ -1,0 +1,43 @@
+/* 
+    there are different types od pseudo class 
+    amoung them these are popularly used
+    -> :link
+    -> :hover
+    -> :active
+    -> :visited
+    -> :nth-child() (for list) 
+*/
+
+
+
+a:link {
+    color: greenyellow;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+button:active {
+    background-color: aqua;
+}
+
+li:nth-child(even) {
+    background-color: blue;
+}
+
+li:nth-child(odd) {
+    background-color: lightblue;
+}

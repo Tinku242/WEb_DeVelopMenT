@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d0fefe;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 25px 12.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    margin: 10px;
+    position: relative;
+}
+
+.navbar a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 2px;
+    background: black;
+    border-radius: 3px;
+    transform: translateY(15px);
+    opacity: 0;
+    transition: .2s;
+}
+
+.navbar a:hover::after {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.search-bar {
+    border: 2px solid;
+    width: 250px;
+    height: 45px;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.search-bar input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+.search-bar button {
+    border: none;
+    background: transparent;
+    padding: 3px;
+}
+
+.search-bar i {
+    font-size: 25px;
+    color: black;
+    transform: translateX(50px);
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background: url("https://images.pexels.com/photos/754898/pexels-photo-754898.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+}
+
+.container {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 550px;
+    width: 75%;
+    background-image: url("https://images.pexels.com/photos/754898/pexels-photo-754898.jpeg");
+    background-size: cover;
+    border-radius: 30px;
+    color: black;
+
+}
+
+.container .content {
+    position: absolute;
+    width: 55%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .logreg-box {
+    position: absolute;
+    width: calc(100% - 55%);
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.content .heading {
+    font-size: 40px;
+    font-weight: 20;
+    padding-top: 40px;
+    align-self: center;
+    color: black;
+}
+
+.content .sub {
+    font-size: 20px;
+    padding-left: 20px;
+    margin: 20px;
+
+}
+
+.content .social {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.social i {
+    margin: 20px;
+}
+
+.logreg-box .form {
+    width: 90%;
+    height: 90%;
+    border: 5px solid;
+    border-color: #d0fefe;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(20px);
+}
+
+
+.form .input-box {
+    width: 300px;
+    height: 40px;
+    border-bottom: 2px solid #d0fefe;
+    margin: 30px 0;
+    position: relative;
+}
+
+.form input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #d0fefe;
+    font-size: 20px;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 20px;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s ease;
+    color: #d0fefe;
+}
+
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: -5px;
+}
+
+.input-box .icon {
+    position: absolute;
+    top: 13px;
+    right: 0;
+    font-size: 19px;
+    color: #d0fefe;
+}
+
+
+button {
+    width: 300px;
+    height: 45px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: lightcoral;
+    color: #d0fefe;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #d0fefe;
+    color: black;
+}

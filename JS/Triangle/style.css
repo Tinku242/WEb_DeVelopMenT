@@ -1,0 +1,25 @@
+.twosides {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+label {
+    font-size: 20px;
+}
+
+.container .sinput {
+    font-size: 20px;
+    width: 450px;
+    border: none;
+    outline: none;
+}
+
+.ans {
+    flex-direction: column;
+}
+
+.ans p {
+    font-size: 20px;
+}

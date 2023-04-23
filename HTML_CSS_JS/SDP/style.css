@@ -1,0 +1,144 @@
+/* * nav bar */
+body {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+nav {
+    background-color: #2f2fa2;
+}
+
+nav .navbar-brand {
+    font-family: 'Righteous', cursive;
+    font-weight: 900;
+}
+
+
+nav .navbar-brand:hover {
+    color: #ed3961;
+    font-size: 30px;
+}
+
+.nav-item .navlink {
+    color: white;
+    font-size: 20px;
+}
+
+.nav-item .login-logout {
+    color: white;
+    font-size: 20px;
+    border: 4px solid #f64c72;
+    border-radius: 10px;
+    padding: 3px;
+    width: 130px;
+}
+
+.nav-item .login-logout:hover {
+    background-color: white;
+    color: #f64c72;
+}
+
+.nav-item .navlink:hover {
+    border-bottom: 2px solid #f64c72;
+    width: 100px;
+    color: #ed3961;
+}
+
+.navbar-toggler {
+    color: white;
+    background-color: white;
+}
+
+.navbar-toggler:hover {
+    background-color: #f64c72;
+}
+
+/* * footer */
+
+.footer {
+    background-color: #2f2fa2;
+    color: white;
+}
+
+.foot-lh {
+    color: #ed3961;
+}
+
+
+.foot-link {
+    font-size: 20px;
+    color: white;
+}
+
+.foot-link:hover {
+    color: #f64c72;
+    border-left: 2px solid #f64c72;
+}
+
+.foot-soc {
+    color: white;
+}
+
+.foot-soc:hover {
+    font-size: 20px;
+    color: #ed3961;
+}
+
+
+/* * home page */
+
+
+.home-body .erpdet {
+    color: #f64c72;
+}
+
+.display-4 {
+    font-family: 'Righteous', cursive;
+    font-weight: 900;
+}
+
+.row .erp-img img {
+    height: 400px;
+    width: 400px;
+}
+
+
+/* * about page */
+
+.emp h1 {
+    color: #ed3961;
+}
+
+.emp {
+    color: #2f2fa2;
+}
+
+.mana h1 {
+    color: #ed3961;
+}
+
+.mana {
+    color: #2f2fa2;
+}
+
+.admin h1 {
+    color: #ed3961;
+}
+
+.admin {
+    color: #2f2fa2;
+}
+
+.mana-img img {
+    height: 300px;
+    width: 300px
+}
+
+.emp-img img {
+    height: 300px;
+    width: 400px
+}
+
+.admin-img img {
+    height: 300px;
+    width: 300px
+}
